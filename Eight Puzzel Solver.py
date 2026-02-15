@@ -1,6 +1,5 @@
 # 8-Puzzle Solver (A*, IDA*, RBFS)
-# Afrooz Behrooznick - 40221160004
-
+# Created by Afrooz Behrooznick 
 import sys
 import os
 import time
@@ -174,7 +173,7 @@ def reconstruct_path(parent_map, action_map, goal_state):
 
 # A* Search algorithm 
 def a_star_search(start_state, goal_state, heuristic_fn):
-    open_heap = [] #صف اولویت
+    open_heap = []
     g_cost = {start_state: 0}
     parent = {}
     action_from_parent = {}
