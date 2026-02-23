@@ -15,6 +15,22 @@ The goal is to move the tiles until the puzzle reaches this state:
 4 5 6
 7 8 0
 
+🌐Web Version Available
+
+An interactive browser-based version of this project is also available.
+The web application implements the same search algorithms (A*, IDA*, RBFS) entirely in JavaScript and provides:
+
+- Visual puzzle board
+- Step-by-step animation
+- Playback controls
+- Modern responsive UI
+- Real-time statistics display
+
+You can access the web version here:
+👉 [https://github.com/AfroozBehrooznick/eight-puzzle-solver-web]
+
+The CLI version (this repository) is focused on algorithm design, performance measurement, and system-level resource analysis.
+
 📝Features
 
 - Three puzzle input methods
